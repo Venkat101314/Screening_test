@@ -1,7 +1,7 @@
 import { makeStyles } from "@mui/styles";
 
 const useStyle = makeStyles((theme) => ({
-  partnerTitle: {
+  merchantTitle: {
     "&.MuiTypography-root": {
       fontSize: "16px",
       fontFamily: "Fira Sans",
@@ -19,8 +19,8 @@ const useStyle = makeStyles((theme) => ({
   dialogBox: {
     "&.MuiDialog-root": {
       position: "absolute",
-      top: "30%",
-      bottom: "23%",
+      top: "16%",
+      bottom: "18%",
       left: "20%",
       right: "20%",
       // transform: "translate(-50%, -50%)",
