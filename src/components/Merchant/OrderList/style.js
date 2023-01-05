@@ -1,0 +1,59 @@
+import { makeStyles } from "@mui/styles";
+import "../styles.css";
+const useStyle = makeStyles((theme) => ({
+  orderMain: {
+      width: "100%",
+      height:'100%'
+  },
+  orderLogo: {
+    "&.MuiGrid-root": {
+      width: "100%",
+      height: "7%",
+      fontWeight: 600,
+    },
+  },
+
+  orderSearch: {
+    "&.MuiGrid-root": {
+      width: "100%",
+      height: "8%",
+    },
+  },
+  orderList: {
+      width: "100%",
+      height: '85%',
+      overflowY: "scroll",
+      scrollBehavior: "smooth",
+      textDecoration: "none",
+      listStyleType: "none",
+  },
+  orderData: {
+    "&.MuiGrid-container": {
+      width: "100%",
+      height: "fit-content",
+      padding: "10px",
+      marginBottom: "5px",
+      borderBottom: "1px solid gray",
+    },
+  },
+  orderTime: {
+    "&.MuiGrid-root": {
+      color: "gray",
+      fontSize: "12px",
+      textAlign: "right",
+    },
+  },
+  searchField:{
+    '&.MuiTextField-root':{
+        width:'100%',
+        height:'8vh',
+    }
+  },
+  orderStatus:{
+    '&.MuiBadge-root':{
+      
+    }
+  }
+}));
+
+export default useStyle;
